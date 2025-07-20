@@ -4,13 +4,12 @@ Write a lambda function 'reverse_string' that takes a string and returns the str
 """
 
 ### YOUR CODE HERE
-def reverse_string(string):
-    pass
+
+reverse_string = lambda w: w[::-1]
 
 
-print(reverse_string("hello"))
 ### TEST:
-# print(reverse_string("hello"))
+print(reverse_string("hello"))
 
 ### EXPECTED OUTPUT:
 # "olleh"
